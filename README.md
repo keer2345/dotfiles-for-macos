@@ -1,6 +1,6 @@
 # dotfiles-for-macos
 
-Read [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/    tutorials/dotfiles)
+Read [https://www.atlassian.com/git/tutorials/dotfiles](The best way to store your dotfiles: A bare Git repository)
 
 ## Backup
 ```shell
@@ -37,7 +37,7 @@ And that your source repository ignores the folder where you'll clone it, so tha
 ```shell
 echo ".cfg" >> .gitignore
 ```
-Now clone your dotfiles into a [bare](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/) repository in a "dot" folder of your `$HOME`:
+Now clone your dotfiles into a [http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/](bare) repository in a "dot" folder of your `$HOME`:
 ```shell
 git clone --bare https://github.com/keer2345/dotfiles-for-macos $HOME/.cfg
 ```

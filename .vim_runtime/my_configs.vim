@@ -5,3 +5,9 @@ inoremap jk <ESC>
 set clipboard=unnamed
 
 let g:ctrlp_map = '<c-p>'
+
+" Vundle
+try
+source ~/.vimrc.plugins
+catch
+endtry

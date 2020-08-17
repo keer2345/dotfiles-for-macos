@@ -1,8 +1,7 @@
 inoremap jk <ESC>
 
-" Vundle
-" 
-" First clone Vundle to local:
+""""""""""""""""""""
+" Vundle - First clone Vundle to local:
 "
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim_runtime/my_plugins/Vundle.vim
 "
@@ -10,14 +9,13 @@ try
 source ~/.vimrc.plugins
 catch
 endtry
-
+"
 " End Vundle
 
 
 
 """"""""""""""""""""
 " Configuration List
-"
 """"""""""""""""""""
 
 " How to copy a selection to the OS X clipboard:

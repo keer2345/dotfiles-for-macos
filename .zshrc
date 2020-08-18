@@ -101,3 +101,11 @@ source $ZSH/oh-my-zsh.sh
 alias ssh_linode="ssh keer@172.105.229.37"
 
 alias config='/usr/bin/git --git-dir=/Users/keer/.cfg/ --work-tree=/Users/keer'
+
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+# z.lua
+eval "$(lua ~/.z.lua/z.lua --init zsh)"
+
+# neovim
+alias vi='nvim'

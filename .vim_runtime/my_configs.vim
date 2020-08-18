@@ -5,13 +5,28 @@ inoremap jk <ESC>
 "
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim_runtime/my_plugins/Vundle.vim
 "
-try
-source ~/.vimrc.plugins
-catch
-endtry
+" try
+" source ~/.vimrc.plugins
+" catch
+" endtry
 "
 " End Vundle
 
+""""""""""""""""""""
+" We use vim-plug here
+"
+try
+    source ~/.vimrc.vim-plug
+catch
+endtry
+
+
+" Enable syntax highlighting
+syntax on
+
+" Enables filetype detection, loads ftplugin, and loads indent
+" (Not necessary on nvim and may not be necessary on vim 8.2+)
+filetype plugin indent on
 
 
 """"""""""""""""""""

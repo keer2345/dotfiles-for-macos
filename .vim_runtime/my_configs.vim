@@ -15,7 +15,7 @@ let g:ctrlp_map = '<c-p>'
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim_runtime/my_plugins/Vundle.vim
 "
 " try
-" source ~/.vimrc.plugins
+" source ~/.vim/vimrc.vundle
 " catch
 " endtry
 "
@@ -25,7 +25,7 @@ let g:ctrlp_map = '<c-p>'
 " We use vim-plug here
 "
 try
-    source ~/.vimrc.vim-plug
+    source ~/.vim/vimrc.vim-plug
 catch
 endtry
 

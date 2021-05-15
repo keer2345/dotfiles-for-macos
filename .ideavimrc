@@ -19,3 +19,6 @@ set multiple-cursors
 " set easymotion
 " 注释插件模拟
 " set commentary
+"
+set number
+set relativenumber

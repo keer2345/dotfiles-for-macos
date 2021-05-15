@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ssh_linode="ssh keer@172.105.229.37"
+alias ssh_aliyun="ssh root@47.113.95.17"
 
 alias config='/usr/bin/git --git-dir=/Users/keer/.cfg/ --work-tree=/Users/keer'
 
@@ -109,3 +110,14 @@ eval "$(lua ~/.z.lua/z.lua --init zsh)"
 
 # neovim
 alias vi='nvim'
+export PATH=$HOME/.emacs.d/bin:$PATH
+
+# export http_proxy=http://127.0.0.1:1087
+# export https_proxy=https://127.0.0.1:1087
+
+alias goproxy='export http_proxy=http://127.0.0.1:1087 https_proxy=http://127.0.0.1:1087'
+alias disproxy='unset http_proxy https_proxy'
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/keer/.sdkman"
+[[ -s "/Users/keer/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/keer/.sdkman/bin/sdkman-init.sh"
